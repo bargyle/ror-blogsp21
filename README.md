@@ -22,3 +22,10 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+blog post
+title string title
+              author
+cat string    body text
+              blog_id
+blog has many post
+post belongs to blog
