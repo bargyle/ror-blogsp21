@@ -29,3 +29,20 @@ cat string    body text
               blog_id
 blog has many post
 post belongs to blog
+
+
+        index 
+          |
+        App (nav routes)
+          |
+          navbar
+  home   about 404  blogs (HOC) 
+                      |
+                blogForm bloglist
+                            |   
+                          blog
+                            |
+                          Posts (HOC) 
+                      post form  post list 
+                                  | 
+                                  post
